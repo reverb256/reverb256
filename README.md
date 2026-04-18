@@ -12,9 +12,9 @@
 
 ### The Short Version
 
-15 years in food service. 20 years tech-curious. Crypto mining built the GPU farm. VR built the passion for immersive tech. AI ignited the pivot. NixOS locked it in.
+15 years in food service. 20 years tech-curious. Crypto mining built the GPU farm. VR consumed 2024. AI ignited late 2025. NixOS locked it in.
 
-Started coding with AI assistance in 2023. Killed Windows for good in September 2025. Went full NixOS in January 2026.
+Started coding with AI assistance in 2025. Blew $1K on Replit learning the hard way. Killed Windows for good September 2025. Went full NixOS January 2026.
 
 **2,057 commits in 84 days** later: a 4-host declarative NixOS cluster with K3s, AI inference gateways, MCP orchestration, and 275 modules — all self-hosted, all $0.
 
@@ -30,12 +30,13 @@ All code is AI-generated via agentic pipelines I architect. I define the scope, 
 ### The Journey
 
 ```
-~2020  Unraid Linux tinkering
-2023   AI excitement, first GitHub account
-2025   Client web dev (Winnipeg small businesses)
-Sep 25 Killed Windows permanently
-Jan 26 First NixOS commit
-Apr 26 2K+ commits, 4-node cluster, open source contributions
+~2020   Unraid Linux tinkering
+2023    GitHub account created, poking around
+2024    Deep VR dive (VRChat, WiVRn, Tundra trackers, SteamVR)
+2025    AI gets real — Replit stint ($1K lesson), client web dev
+Sep 25  Killed Windows permanently
+Jan 26  First NixOS commit
+Apr 26  2K+ commits, 4-node cluster, open source contributions
 ```
 
 ### Stack
@@ -44,7 +45,7 @@ Apr 26 2K+ commits, 4-node cluster, open source contributions
 Languages:   Nix · Rust · TypeScript · Python · C++
 Infra:       NixOS · K3s · Colmena · Caddy
 AI/ML:       MCP · Qdrant · llama.cpp · Local LLMs
-Hardware:    7 GPUs (8 from mining days) across 4 hosts
+Hardware:    7 GPUs (from mining days) across 4 hosts
 ```
 
 ### Contributions
