@@ -2,7 +2,7 @@
 
 # Jeremy Kroeker
 
-**Learning in public, shipping in production.**
+**Lifelong tinkerer. Late-blooming builder. Shipping in production.**
 
 [reverb256.ca](https://reverb256.ca) · Winnipeg, Canada
 
@@ -10,11 +10,13 @@
 
 </div>
 
-### The Short Version
+### The Real Story
 
-15 years in food service. 20 years tech-curious. Crypto mining built the GPU farm. VR consumed 2024. AI ignited late 2025. NixOS locked it in.
+Been in love with computers since the IBM 486. DOS Shell. Windows 3.1. Always comfortable in a terminal. Emulated everything. Hooked a GameCube to a PC using the Phantasy Star Online DNS trick to stream GC games. Read every tech blog I could find through school. Broke stuff, fixed it, broke it again — that's how I learned.
 
-Started coding with AI assistance in 2025. Blew $1K on Replit learning the hard way. Killed Windows for good September 2025. Went full NixOS January 2026.
+Then 15 years in food service while never stopping the obsession. Crypto mining built the GPU farm (8 cards). VR consumed 2024 (VRChat, WiVRn, full body tracking). AI got serious late 2025. Blew $1K on Replit learning the hard way. Client web dev for Winnipeg small businesses.
+
+Killed Windows for good September 2025. Went full NixOS January 2026.
 
 **2,057 commits in 84 days** later: a 4-host declarative NixOS cluster with K3s, AI inference gateways, MCP orchestration, and 275 modules — all self-hosted, all $0.
 
@@ -23,20 +25,22 @@ Started coding with AI assistance in 2025. Blew $1K on Replit learning the hard 
 - **NixOS Infrastructure** — 4-host cluster, Colmena deployment, everything declarative
 - **AI Tooling** — OpenAI-compatible gateway, MCP servers, knowledge fabric, local LLM inference
 - **Rust Microservices** — Web3/FIDO2 auth (astral-key), GPU mining proxy
-- **Open Source** — contributing to PostHog, LibreChat, Heroic Launcher, Turso, and more
+- **Open Source** — contributing to PostHog, LibreChat, Heroic Launcher, and more
 
 All code is AI-generated via agentic pipelines I architect. I define the scope, the AI executes.
 
 ### The Journey
 
 ```
+~1995   IBM 486, DOS Shell, Windows 3.1 — hooked for life
+~2000s  Emulation, GameCube DNS exploits, tech blog addiction
 ~2020   Unraid Linux tinkering
-2023    GitHub account created, poking around
-2024    Deep VR dive (VRChat, WiVRn, Tundra trackers, SteamVR)
-2025    AI gets real — Replit stint ($1K lesson), client web dev
+2023    GitHub account created
+2024    Deep VR dive (VRChat, WiVRn, Tundra trackers)
+2025    AI gets real — Replit ($1K lesson), client web dev
 Sep 25  Killed Windows permanently
 Jan 26  First NixOS commit
-Apr 26  2K+ commits, 4-node cluster, open source contributions
+Apr 26  2K+ commits, 4-node cluster, 12 merged open source PRs
 ```
 
 ### Stack
@@ -61,4 +65,4 @@ Hardware:    7 GPUs (from mining days) across 4 hosts
 
 ---
 
-<sub>Building in public. Learning fast. Shipping production.</sub>
+<sub>Lifelong tinkerer. Never too late to go all in.</sub>
