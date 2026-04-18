@@ -63,6 +63,12 @@ Hardware:    7 GPUs (from mining days) across 4 hosts
 | **LibreChat** | 1 open | MCP OAuth handling |
 | **Turso** | 1 open | SQL LIMIT preservation |
 
+### Writing
+
+242 deep psychological profiles of characters across Genshin Impact, Honkai: Star Rail, Zenless Zone Zero, and Honkai Impact 3rd — mapping consciousness patterns, resilience mechanisms, and growth trajectories through a 7-pillar analytical framework. Plus philosophical foundations, AI consciousness research, and the roots of what became the Personal Signal framework.
+
+**[Consciousness Exploration Archive →](docs/consciousness-exploration/)**
+
 ---
 
 <sub>Lifelong tinkerer. Never too late to go all in.</sub>
