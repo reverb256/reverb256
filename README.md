@@ -18,7 +18,7 @@ Then 15 years in food service while never stopping the obsession. Crypto mining 
 
 Killed Windows for good September 2025. Went full NixOS January 2026.
 
-**2,057 commits in 84 days** later: a 4-host declarative NixOS cluster with K3s, AI inference gateways, MCP orchestration, and 275 modules — all self-hosted, all $0.
+In the months since: a 4-host declarative NixOS cluster with K3s, AI inference gateways, MCP orchestration, **and the MapleSpike sovereign-AI data-fabric** ([maplespike is a private mono-repo under github.com/reverb256](https://github.com/reverb256)) — all self-hosted, all $0. (No specific commit or module count is asserted here; the live cluster and the live repo are the source of truth.)
 
 ### What I Build
 
