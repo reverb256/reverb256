@@ -20,7 +20,7 @@ Killed Windows for good September 2025 to try Omarchy, then hopped to CachyOS, e
 
 Now I am migrating to Omarchy.
 
-In the months since: a 4-host declarative NixOS cluster with K3s, AI inference gateways, MCP orchestration, **and the MapleSpike sovereign-AI data-fabric** ([maplespike is a private mono-repo under github.com/reverb256](https://github.com/reverb256)) — all self-hosted, all $0. (No specific commit or module count is asserted here; the live cluster and the live repo are the source of truth.)
+In the months since: a 4-host declarative NixOS cluster with K3s, AI inference gateways, MCP orchestration,  — all self-hosted, all $0. (No specific commit or module count is asserted here; the live cluster and the live repo are the source of truth.)
 
 All code is AI-generated via agentic pipelines I architect. I define the scope, the AI executes.
 
