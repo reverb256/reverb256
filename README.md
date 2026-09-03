@@ -17,6 +17,7 @@ Been in love with computers since the IBM 486. DOS Shell. Windows 3.1. Always co
 Then 15 years in food service while never stopping the obsession. Crypto mining built the GPU farm (8 cards). VR consumed 2024 (Quest Pro, VRChat, full body tracking). AI got serious late 2025. Blew $1K on Replit learning the hard way. Client web dev for Winnipeg small businesses.
 
 Killed Windows for good September 2025 to try Omarchy, then hopped to CachyOS, experimented with Bazzite/Aurora, settling on NixOS in January.  
+
 Now I am migrating to Omarchy.
 
 In the months since: a 4-host declarative NixOS cluster with K3s, AI inference gateways, MCP orchestration, **and the MapleSpike sovereign-AI data-fabric** ([maplespike is a private mono-repo under github.com/reverb256](https://github.com/reverb256)) — all self-hosted, all $0. (No specific commit or module count is asserted here; the live cluster and the live repo are the source of truth.)
