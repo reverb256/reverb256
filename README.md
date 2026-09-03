@@ -14,7 +14,7 @@
 
 Been in love with computers since the IBM 486. DOS Shell. Windows 3.1. Always comfortable in a terminal. Emulated everything. Hooked a GameCube to a PC using the Phantasy Star Online DNS trick to stream GC games. Read every tech blog I could find through school. Broke stuff, fixed it, broke it again — that's how I learned.
 
-Then 15 years in food service while never stopping the obsession. Crypto mining built the GPU farm (8 cards). VR consumed 2024 (VRChat, WiVRn, full body tracking). AI got serious late 2025. Blew $1K on Replit learning the hard way. Client web dev for Winnipeg small businesses.
+Then 15 years in food service while never stopping the obsession. Crypto mining built the GPU farm (8 cards). VR consumed 2024 (Quest Pro, VRChat, full body tracking). AI got serious late 2025. Blew $1K on Replit learning the hard way. Client web dev for Winnipeg small businesses.
 
 Killed Windows for good September 2025. Went full NixOS January 2026.
 
