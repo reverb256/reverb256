@@ -2,7 +2,7 @@
 
 # Jeremy Kroeker
 
-**Lifelong tinkerer. Late-blooming builder. Shipping in production.**
+**Lifelong tinkerer. Late-blooming builder.**
 
 [reverb256.ca](https://reverb256.ca) · Winnipeg, Canada
 
@@ -19,13 +19,6 @@ Then 15 years in food service while never stopping the obsession. Crypto mining 
 Killed Windows for good September 2025. Went full NixOS January 2026.
 
 In the months since: a 4-host declarative NixOS cluster with K3s, AI inference gateways, MCP orchestration, **and the MapleSpike sovereign-AI data-fabric** ([maplespike is a private mono-repo under github.com/reverb256](https://github.com/reverb256)) — all self-hosted, all $0. (No specific commit or module count is asserted here; the live cluster and the live repo are the source of truth.)
-
-### What I Build
-
-- **NixOS Infrastructure** — 4-host cluster, Colmena deployment, everything declarative
-- **AI Tooling** — OpenAI-compatible gateway, MCP servers, knowledge fabric, local LLM inference
-- **Rust Microservices** — Web3/FIDO2 auth (astral-key), GPU mining proxy
-- **Open Source** — contributing to PostHog, LibreChat, Heroic Launcher, and more
 
 All code is AI-generated via agentic pipelines I architect. I define the scope, the AI executes.
 
@@ -51,24 +44,5 @@ Infra:       NixOS · K3s · Colmena · Caddy
 AI/ML:       MCP · Qdrant · llama.cpp · Local LLMs
 Hardware:    7 GPUs (from mining days) across 4 hosts
 ```
-
-### Contributions
-
-| Project | PRs | Focus |
-|---------|-----|-------|
-| **PostHog** | 7 merged | UI polish, diff viewer, chat UX |
-| **Heroic Launcher** | 1 merged | GOG presence fix |
-| **ClawWork** | 1 merged | IPC type guard refactor |
-| **Haven** | 1 merged | Desktop packaging |
-| **LibreChat** | 1 open | MCP OAuth handling |
-| **Turso** | 1 open | SQL LIMIT preservation |
-
-### Writing
-
-242 deep psychological profiles of characters across Genshin Impact, Honkai: Star Rail, Zenless Zone Zero, and Honkai Impact 3rd — mapping consciousness patterns, resilience mechanisms, and growth trajectories through a 7-pillar analytical framework. Plus philosophical foundations, AI consciousness research, and the roots of what became the Personal Signal framework.
-
-**[Consciousness Exploration Archive →](docs/consciousness-exploration/)**
-
 ---
-
 <sub>Lifelong tinkerer. Never too late to go all in.</sub>
