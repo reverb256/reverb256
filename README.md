@@ -18,9 +18,9 @@ Then 15 years in food service while never stopping the obsession. Crypto mining 
 
 Killed Windows for good September 2025 to try Omarchy, then hopped to CachyOS, experimented with Bazzite/Aurora, settling on NixOS in January.  
 
-Now I am migrating to Omarchy.
+Migration complete: as of September 2026, the whole fleet runs Arch-based Omarchy.
 
-In the months since: a 4-host declarative NixOS cluster with K3s, AI inference gateways, MCP orchestration,  — all self-hosted, all $0. (No specific commit or module count is asserted here; the live cluster and the live repo are the source of truth.)
+In the months since: a 4-host Omarchy (Arch) fleet with K3s, AI inference gateways, and MCP orchestration — all self-hosted, all $0. (No specific commit or module count is asserted here; the live cluster and the live repo are the source of truth.)
 
 All code is AI-generated via agentic pipelines I architect. I define the scope, the AI executes.
 
@@ -36,13 +36,14 @@ All code is AI-generated via agentic pipelines I architect. I define the scope, 
 Sep 25  Killed Windows permanently
 Jan 26  First NixOS commit
 Apr 26  2K+ commits, 4-node cluster, 12 merged open source PRs
+Sep 26  Fleet migrated off NixOS — all four hosts on Arch-based Omarchy
 ```
 
 ### Stack
 
 ```
 Languages:   Nix · Rust · TypeScript · Python · C++
-Infra:       Nix · K3s · Colmena · Caddy
+Infra:       Omarchy (Arch) · K3s · Tailscale · Cloudflare
 AI/ML:       MCP · Qdrant · llama.cpp · Local LLMs
 Hardware:    7 GPUs (from mining days) across 4 hosts
 ```
