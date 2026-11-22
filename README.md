@@ -131,12 +131,16 @@ These aren't game reviews. They're reverse-engineering how different consciousne
 
 ## 🤝 Contributions to Open Source
 
-PRs merged into projects I don't own (and a few still in flight):
+PRs merged into projects I don't own — 28 merged across 8 upstreams:
 
 | Project | Merged | Notable PRs |
 | --- | --- | --- |
-| [ancsemi/Haven](https://github.com/ancsemi/Haven) | 5 | Keep a reconnected phone receiving channel messages; make a DM deleted from the pop-out stay deleted; make custom status easy to find; server default theme; disable CSP upgrade-insecure-requests under FORCE_HTTP |
+| [PostHog/code](https://github.com/PostHog/code) | 11 | Configurable default effort level; copy button on code blocks; search bar in skills view; hyphenate wrapped text; scrollbar on hover in diff viewer; hide data-queried dropdown when empty; show full file path in edit view; consistent gray background in light mode; improve inline code rendering; hide error-tracking fingerprint; prevent filepath wrapping |
+| [ancsemi/Haven](https://github.com/ancsemi/Haven) | 5 | Keep a reconnected phone receiving channel messages; make a DM deleted from the pop-out stay deleted; make custom status easy to find; server default theme loads no stylesheet when named without extension; disable CSP upgrade-insecure-requests under FORCE_HTTP |
+| [clawwork-ai/ClawWork](https://github.com/clawwork-ai/ClawWork) | 5 | Unified gateway registry in ui-store; extract SelectionTag component; extract typeof IPC guard checks; extract duplicate mention-tabs array; extract navActiveClass helper |
 | [nixfred/infomarchy](https://github.com/nixfred/infomarchy) | 3 | Let the module strip leave the wallpaper; event-driven refresh on top of poll; recognize Hermes launched via `python -m hermes_cli.main` |
+| [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | 1 | Clear GOG presence when disabling the setting |
+| [OpenGamingCollective/ScopeBuddy](https://github.com/OpenGamingCollective/ScopeBuddy) | 1 | Add xwayland to PATH so nested gamescope spawns Xwayland |
 | [cachix/secretspec](https://github.com/cachix/secretspec) | 1 | Support deleting secrets with the SOPS provider |
 | [drinkataco/helm-media-servarr](https://github.com/drinkataco/helm-media-servarr) | 1 | Add `deployment.hostNetwork` + `deployment.dnsPolicy` |
 
@@ -150,6 +154,7 @@ In flight:
 | [yaredow/omastream](https://github.com/yaredow/omastream) | Support Zen browser for yt-dlp cookie extraction |
 | [PozzettiAndrea/ComfyUI-TRELLIS2](https://github.com/PozzettiAndrea/ComfyUI-TRELLIS2) | Free each stage model after use (TRELLIS2_FREE_MODELS) |
 | [omacom/radio.omarchy.org](https://github.com/omacom/radio.omarchy.org) | Add track: Reverb256 - Epoch Reset |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Add Quill — Canadian government data server |
 
 > Full PR history: [github.com/pulls?q=author%3Areverb256](https://github.com/pulls?q=author%3Areverb256).
 
