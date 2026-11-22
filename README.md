@@ -55,18 +55,25 @@ What I'm shipping right now:
 
 | Project | Language | What it is |
 | --- | --- | --- |
-| [wan2gp-mcp-server](https://github.com/reverb256/wan2gp-mcp-server) | Python | MCP server for Wan2GP video generation with GPU detection and VRAM management |
 | [hermes-gpui](https://github.com/reverb256/hermes-gpui) | Rust | Native GPUI desktop client for Hermes — no Electron, no Chromium |
-| [niri-hdr-fork](https://github.com/reverb256/niri-hdr-fork) | Rust | niri HDR fork + HDR caps re-probe fix for TVs that gain HDR after connect |
-| [observatory](https://github.com/reverb256/observatory) | JavaScript | Canadian public data intelligence platform |
+| [hermes-agent](https://github.com/reverb256/hermes-agent) | Python | The agent that grows with you |
+| [hermes-agent-self-evolution](https://github.com/reverb256/hermes-agent-self-evolution) | Python | Evolutionary self-improvement for Hermes — DSPy + GEPA |
+| [mcp-canada](https://github.com/reverb256/mcp-canada) | Python | MCP server for Canadian government data — 217 tools across 17 APIs |
+| [wan2gp-mcp-server](https://github.com/reverb256/wan2gp-mcp-server) | Python | MCP server for Wan2GP video generation with GPU detection and VRAM management |
+| [mcp-registry](https://github.com/reverb256/mcp-registry) | Nix | Declarative MCP server management as a NixOS module |
+| [flea](https://github.com/reverb256/flea) | Rust | Fast, keyboard-first file manager for Omarchy (Quickshell + Rust) |
+| [infomarchy](https://github.com/reverb256/infomarchy) | TypeScript | Omarchy plugin: wallpaper becomes a live, clickable information desk |
+| [omastream](https://github.com/reverb256/omastream) | QML | YouTube discovery, embedded player, audio streamer, queue downloader for Omarchy |
+| [radio.omarchy.org](https://github.com/reverb256/radio.omarchy.org) | TypeScript | Omarchy Radio — always-on music streams in your browser |
+| [voxtype](https://github.com/reverb256/voxtype) | Rust | Voice-to-text with push-to-talk for Wayland compositors |
+| [voice_relay](https://github.com/reverb256/voice_relay) | Python | Android → Windows voice relay via PWA, Tailscale, NSSM |
 | [Haven](https://github.com/reverb256/Haven) | JavaScript | Self-hosted private chat — no cloud, no telemetry, no Big Tech |
 | [secretspec](https://github.com/reverb256/secretspec) | Rust | Declare secrets once. Store them anywhere. |
-| [flea](https://github.com/reverb256/flea) | Rust | Fast, keyboard-first file manager for Omarchy |
-| [omastream](https://github.com/reverb256/omastream) | QML | Lightweight YouTube discovery, embedded player, and queue-based downloader for Omarchy |
-| [infomarchy](https://github.com/reverb256/infomarchy) | TypeScript | Omarchy plugin: your wallpaper becomes a live, clickable information desk |
-| [radio.omarchy.org](https://github.com/reverb256/radio.omarchy.org) | TypeScript | Omarchy Radio — always-on music streams, in your browser |
+| [observatory](https://github.com/reverb256/observatory) | JavaScript | Canadian public data intelligence platform |
+| [caddy-ingress](https://github.com/reverb256/caddy-ingress) | Nix | Custom Caddy build with security and rate-limiting modules |
+| [comfyui-nix](https://github.com/reverb256/comfyui-nix) | Nix | Opinionated ComfyUI flake (macOS + Linux/CUDA) |
 | [helm-media-servarr](https://github.com/reverb256/helm-media-servarr) | Shell | Helm charts for a connected media server (servarr family) |
-| [mcp-registry](https://github.com/reverb256/mcp-registry) | Nix | Declarative MCP server management as a NixOS module |
+| [mosiac-identity](https://github.com/reverb256/mosiac-identity) | JavaScript | Self-sovereign identity sidecar: Ed25519, WebAuthn, QR exchange |
 
 > Full list: [all 50 public repositories](https://github.com/reverb256?tab=repositories).
 
