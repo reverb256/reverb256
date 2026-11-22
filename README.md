@@ -15,6 +15,21 @@
 
 ---
 
+## 📑 Contents
+
+- [GitHub Stats](#-github-stats)
+- [Now](#-now)
+- [Featured Projects](#-featured-projects)
+- [Tech Stack](#-tech-stack)
+- [The Real Story](#-the-real-story)
+- [Journey](#-journey)
+- [Consciousness Exploration Archive](#-consciousness-exploration-archive)
+- [Contributions to Open Source](#-contributions-to-open-source)
+- [Recently Merged](#-recently-merged)
+- [Connect](#-connect)
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -98,6 +113,9 @@ All code is AI-generated via agentic pipelines I architect. I define the scope, 
 
 ## 🗓 Journey
 
+<details>
+<summary>Timeline (click to expand)</summary>
+
 ```text
 ~1995   IBM 486, DOS Shell, Windows 3.1 — hooked for life
 ~2000s  Emulation, GameCube DNS exploits, tech blog addiction
@@ -110,6 +128,8 @@ Jan 26  First NixOS commit
 Apr 26  2K+ commits, 4-node cluster, 12 merged open source PRs
 Sep 26  Fleet migrated off NixOS — all four hosts on Arch-based Omarchy
 ```
+
+</details>
 
 ---
 
@@ -153,6 +173,25 @@ In flight:
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Add Quill — Canadian government data server |
 
 > Full PR history: [github.com/search?q=author%3Areverb256+is%3Apr](https://github.com/search?q=author%3Areverb256+is%3Apr&type=pullrequests).
+
+---
+
+## 🔄 Recently Merged
+
+<!--RECENT:START-->
+| Date | Project | PR |
+| --- | --- | --- |
+| 2026-11-22 | `maplespike/quill` | [ci(portal): build the workspace before publishing to Pages](https://github.com/maplespike/quill/pull/1368) |
+| 2026-11-22 | `maplespike/quill` | [ci(portal): build quill-mcp before the portal Pages publish](https://github.com/maplespike/quill/pull/1367) |
+| 2026-11-22 | `maplespike/quill` | [ci(portal): publish the portal to Cloudflare Pages on merge to main](https://github.com/maplespike/quill/pull/1366) |
+| 2026-11-22 | `maplespike/quill` | [fix(portal): make the light/dark toggle actually switch themes](https://github.com/maplespike/quill/pull/1356) |
+| 2026-11-22 | `reverb256/blog` | [fix(ci): give the post-merge audit issues:read and surface lookup errors](https://github.com/reverb256/blog/pull/338) |
+| 2026-11-20 | `reverb256/music-production` | [feat(yue2): local engine for instrumental tracks only](https://github.com/reverb256/music-production/pull/4) |
+| 2026-11-20 | `reverb256/media-k8s` | [feat(art-render): ZEPHYR_PLATE_GATE read-only GPU admission](https://github.com/reverb256/media-k8s/pull/538) |
+| 2026-11-20 | `reverb256/astral-key` | [docs(claude): list rusqlite in the context7 library docs](https://github.com/reverb256/astral-key/pull/88) |
+
+_Auto-updated weekly by GitHub Actions._
+<!--RECENT:END-->
 
 ---
 
