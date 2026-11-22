@@ -60,7 +60,6 @@ What I'm shipping right now:
 | [hermes-agent-self-evolution](https://github.com/reverb256/hermes-agent-self-evolution) | Python | Evolutionary self-improvement for Hermes — DSPy + GEPA |
 | [mcp-canada](https://github.com/reverb256/mcp-canada) | Python | MCP server for Canadian government data — 217 tools across 17 APIs |
 | [wan2gp-mcp-server](https://github.com/reverb256/wan2gp-mcp-server) | Python | MCP server for Wan2GP video generation with GPU detection and VRAM management |
-| [mcp-registry](https://github.com/reverb256/mcp-registry) | Nix | Declarative MCP server management as a NixOS module |
 | [flea](https://github.com/reverb256/flea) | Rust | Fast, keyboard-first file manager for Omarchy (Quickshell + Rust) |
 | [infomarchy](https://github.com/reverb256/infomarchy) | TypeScript | Omarchy plugin: wallpaper becomes a live, clickable information desk |
 | [omastream](https://github.com/reverb256/omastream) | QML | YouTube discovery, embedded player, audio streamer, queue downloader for Omarchy |
@@ -70,8 +69,6 @@ What I'm shipping right now:
 | [Haven](https://github.com/reverb256/Haven) | JavaScript | Self-hosted private chat — no cloud, no telemetry, no Big Tech |
 | [secretspec](https://github.com/reverb256/secretspec) | Rust | Declare secrets once. Store them anywhere. |
 | [observatory](https://github.com/reverb256/observatory) | JavaScript | Canadian public data intelligence platform |
-| [caddy-ingress](https://github.com/reverb256/caddy-ingress) | Nix | Custom Caddy build with security and rate-limiting modules |
-| [comfyui-nix](https://github.com/reverb256/comfyui-nix) | Nix | Opinionated ComfyUI flake (macOS + Linux/CUDA) |
 | [helm-media-servarr](https://github.com/reverb256/helm-media-servarr) | Shell | Helm charts for a connected media server (servarr family) |
 | [mosiac-identity](https://github.com/reverb256/mosiac-identity) | JavaScript | Self-sovereign identity sidecar: Ed25519, WebAuthn, QR exchange |
 
@@ -81,7 +78,7 @@ What I'm shipping right now:
 
 ## 🧬 Tech Stack
 
-**Languages:** `Nix` · `Rust` · `TypeScript` · `Python` · `C++` · `Go` · `QML`
+**Languages:** `Rust` · `TypeScript` · `Python` · `C++` · `Go` · `QML` · `Kotlin`
 
 **Infra:** `Omarchy (Arch)` · `K3s` · `Tailscale` · `Cloudflare` · `Caddy` · `Longhorn`
 
