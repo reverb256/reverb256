@@ -196,6 +196,7 @@ _Auto-updated weekly by GitHub Actions._
 - 🌐 Website: [reverb256.ca](https://reverb256.ca)
 - 💖 Sponsor: [github.com/sponsors/reverb256](https://github.com/sponsors/reverb256)
 - 📦 Repositories: [github.com/reverb256?tab=repositories](https://github.com/reverb256?tab=repositories)
+- 📊 Fleet status: [status.reverb256.ca](https://status.reverb256.ca) (self-hosted, 6 services)
 
 ---
 
