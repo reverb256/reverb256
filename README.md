@@ -35,15 +35,11 @@
 <div align="center">
 
 <a href="https://github.com/reverb256">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=reverb256&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" />
-</a>
-<a href="https://github.com/reverb256">
-  <img height="170" src="https://streak-stats.demolab.com?user=reverb256&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+  <img src="https://raw.githubusercontent.com/reverb256/reverb256/main/assets/stats.svg" alt="Self-hosted GitHub stats (refreshed weekly)" />
 </a>
 
-<a href="https://github.com/reverb256">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reverb256&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</a>
+<sub>Self-generated from the GitHub API · no third-party service · refreshed weekly by GitHub Actions.<br/>
+Contribution graph: <a href="https://github.com/reverb256">github.com/reverb256</a></sub>
 
 </div>
 
