@@ -16,6 +16,20 @@ USER = "reverb256"
 LIMIT = 8
 
 
+def _repo_is_public(repo_name: str) -> bool:
+    url = f"https://api.github.com/repos/{repo_name}"
+    req = urllib.request.Request(url)
+    req.add_header("Accept", "application/vnd.github+json")
+    if TOKEN:
+        req.add_header("Authorization", f"Bearer {TOKEN}")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.load(resp)
+        return not bool(data.get("private", False))
+    except Exception:
+        return False
+
+
 def fetch_merged_prs():
     url = (
         "https://api.github.com/search/issues"
@@ -30,13 +44,18 @@ def fetch_merged_prs():
     items = data.get("items", [])
     out = []
     for it in items:
-        repo = it.get("repository_url", "").rsplit("/", 2)[-2:]
-        repo_name = "/".join(repo) if len(repo) == 2 else it.get("repository_url", "")
-        # repository_url looks like https://api.github.com/repos/owner/name
         ru = it.get("repository_url", "")
-        if "/repos/" in ru:
-            repo_name = ru.split("/repos/", 1)[1]
-        out.append((repo_name, it.get("title", ""), it.get("html_url", ""), it.get("created_at", "")[:10]))
+        repo_name = ru.split("/repos/", 1)[1] if "/repos/" in ru else ""
+        title = it.get("title", "")
+        html_url = it.get("html_url", "")
+        date = it.get("created_at", "")[:10]
+        # Only link PRs in public repos; private-repo links 404 for anonymous
+        # link-checkers and would turn CI red.
+        if repo_name and _repo_is_public(repo_name):
+            pr_cell = f"[{title}]({html_url})"
+        else:
+            pr_cell = title
+        out.append((repo_name, pr_cell, date))
     return out
 
 
@@ -47,8 +66,8 @@ def render(prs):
     else:
         lines.append("| Date | Project | PR |")
         lines.append("| --- | --- | --- |")
-        for repo, title, url, date in prs:
-            lines.append(f"| {date} | `{repo}` | [{title}]({url}) |")
+        for repo, pr_cell, date in prs:
+            lines.append(f"| {date} | `{repo}` | {pr_cell} |")
     lines.append("")
     lines.append("_Auto-updated weekly by GitHub Actions._")
     lines.append("<!--RECENT:END-->")

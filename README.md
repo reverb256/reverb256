@@ -185,10 +185,10 @@ In flight:
 | 2026-11-22 | `maplespike/quill` | [ci(portal): build quill-mcp before the portal Pages publish](https://github.com/maplespike/quill/pull/1367) |
 | 2026-11-22 | `maplespike/quill` | [ci(portal): publish the portal to Cloudflare Pages on merge to main](https://github.com/maplespike/quill/pull/1366) |
 | 2026-11-22 | `maplespike/quill` | [fix(portal): make the light/dark toggle actually switch themes](https://github.com/maplespike/quill/pull/1356) |
-| 2026-11-22 | `reverb256/blog` | [fix(ci): give the post-merge audit issues:read and surface lookup errors](https://github.com/reverb256/blog/pull/338) |
-| 2026-11-20 | `reverb256/music-production` | [feat(yue2): local engine for instrumental tracks only](https://github.com/reverb256/music-production/pull/4) |
-| 2026-11-20 | `reverb256/media-k8s` | [feat(art-render): ZEPHYR_PLATE_GATE read-only GPU admission](https://github.com/reverb256/media-k8s/pull/538) |
-| 2026-11-20 | `reverb256/astral-key` | [docs(claude): list rusqlite in the context7 library docs](https://github.com/reverb256/astral-key/pull/88) |
+| 2026-11-22 | `reverb256/blog` | fix(ci): give the post-merge audit issues:read and surface lookup errors |
+| 2026-11-20 | `reverb256/music-production` | feat(yue2): local engine for instrumental tracks only |
+| 2026-11-20 | `reverb256/media-k8s` | feat(art-render): ZEPHYR_PLATE_GATE read-only GPU admission |
+| 2026-11-20 | `reverb256/astral-key` | docs(claude): list rusqlite in the context7 library docs |
 
 _Auto-updated weekly by GitHub Actions._
 <!--RECENT:END-->
