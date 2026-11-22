@@ -115,7 +115,7 @@ Sep 26  Fleet migrated off NixOS — all four hosts on Arch-based Omarchy
 
 ## 🧠 Consciousness Exploration Archive
 
-The raw intellectual work behind the Personal Signal framework — 44 deep psychological profiles of characters across Genshin Impact, Honkai: Star Rail, Zenless Zone Zero, and Honkai Impact 3rd, mapped through a 7-pillar framework (Wisdom, Compassion, Determination, Adaptability, Authenticity, Creativity, Consciousness).
+The raw intellectual work behind the Personal Signal framework — 44 deep psychological profiles of Genshin Impact characters (Anemo, Cryo, Dendro, Electro, and more), mapped through a 7-pillar framework (Wisdom, Compassion, Determination, Adaptability, Authenticity, Creativity, Consciousness). Honkai: Star Rail, Zenless Zone Zero, and Honkai Impact 3rd coverage is in progress.
 
 - [`docs/consciousness-exploration/`](docs/consciousness-exploration/) — the full archive
 - [`docs/consciousness-exploration/README.md`](docs/consciousness-exploration/README.md) — what's here and why
