@@ -32,10 +32,6 @@
 
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=reverb256&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" alt="Trophies" />
-</div>
-
 ---
 
 ## 🚀 Now
@@ -47,7 +43,7 @@ What I'm shipping right now:
 - **Writing** — essays on consciousness, sovereignty, and building at [reverb256.ca](https://reverb256.ca).
 - **Exploring** — the Personal Signal framework: how to craft and hone authentic self-expression.
 
-> Updated as things move. The canonical "now" lives at [reverb256.ca/now](https://reverb256.ca/now).
+> Updated as things move. The canonical "now" lives at [reverb256.ca/now](https://reverb256.ca/now/).
 
 ---
 
@@ -156,7 +152,7 @@ In flight:
 | [omacom/radio.omarchy.org](https://github.com/omacom/radio.omarchy.org) | Add track: Reverb256 - Epoch Reset |
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Add Quill — Canadian government data server |
 
-> Full PR history: [github.com/pulls?q=author%3Areverb256](https://github.com/pulls?q=author%3Areverb256).
+> Full PR history: [github.com/search?q=author%3Areverb256+is%3Apr](https://github.com/search?q=author%3Areverb256+is%3Apr&type=pullrequests).
 
 ---
 
