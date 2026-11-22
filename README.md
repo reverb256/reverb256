@@ -129,6 +129,25 @@ These aren't game reviews. They're reverse-engineering how different consciousne
 
 ---
 
+## 🤝 Contributions to Open Source
+
+PRs to projects I don't own — the ones that made it in (and a few still in flight):
+
+| Project | Status | PR |
+| --- | --- | --- |
+| [cachix/secretspec](https://github.com/cachix/secretspec) | Merged | Support deleting secrets with the SOPS provider |
+| [maplespike/quill](https://github.com/maplespike/quill) | Merged | fix(portal): make the light/dark toggle actually switch themes |
+| [maplespike/maplespike-brand](https://github.com/maplespike/maplespike-brand) | Merged | ci: label-gated merge-when-green v2 + leakguard |
+| [maplespike/maplespike-workers](https://github.com/maplespike/maplespike-workers) | Merged | ci: label-gated merge-when-green v2 + leakguard |
+| [omacom/omarchy](https://github.com/omacom/omarchy) | Open | Grow the weather panel; allow TRIM through dm-crypt; refresh bar clock on wake; tag Vivaldi case-insensitively |
+| [peteonrails/voxtype](https://github.com/peteonrails/voxtype) | Open | fix: exit one-shot commands without running static destructors |
+| [SimonSchubert/omalauncher](https://github.com/SimonSchubert/omalauncher) | Open | Add CONTRIBUTING.md/issue templates; security housekeeping (Dependabot, pinned actions) |
+| [maplespike/quill](https://github.com/maplespike/quill) | Open | Verify Astral Key credentials via access-only endpoint; temporary forge backup claim |
+
+> Full PR history: [github.com/pulls?q=author%3Areverb256](https://github.com/pulls?q=author%3Areverb256).
+
+---
+
 ## 📫 Connect
 
 - 🌐 Website: [reverb256.ca](https://reverb256.ca)
