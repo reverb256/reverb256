@@ -18,5 +18,5 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --exclude-loopback --exclude-mail --max-concurrency 8 "**/*.md"
+          args: --verbose --no-progress --exclude-loopback --exclude '^mailto:' --max-concurrency 8 "**/*.md"
           fail: true
