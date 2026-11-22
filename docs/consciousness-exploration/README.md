@@ -7,7 +7,7 @@ This archive documents a multi-year exploration of consciousness, psychology, an
 ## What's Here
 
 ### Character Analyses (`character-analyses/`)
-242 deep psychological profiles of characters from Genshin Impact, Honkai: Star Rail, Zenless Zone Zero, and Honkai Impact 3rd. Each analysis maps consciousness patterns through a 7-pillar framework:
+44 deep psychological profiles of characters from Genshin Impact (Anemo, Cryo, Dendro, Electro, and more). Honkai: Star Rail, Zenless Zone Zero, and Honkai Impact 3rd coverage is in progress. Each analysis maps consciousness patterns through a 7-pillar framework:
 
 - **Wisdom** — strategic thinking, knowledge integration
 - **Compassion** — empathy, emotional intelligence
