@@ -177,14 +177,14 @@ In flight:
 <!--RECENT:START-->
 | Date | Project | PR |
 | --- | --- | --- |
-| 2026-11-22 | `maplespike/quill` | [ci(portal): build the workspace before publishing to Pages](https://github.com/maplespike/quill/pull/1368) |
-| 2026-11-22 | `maplespike/quill` | [ci(portal): build quill-mcp before the portal Pages publish](https://github.com/maplespike/quill/pull/1367) |
-| 2026-11-22 | `maplespike/quill` | [ci(portal): publish the portal to Cloudflare Pages on merge to main](https://github.com/maplespike/quill/pull/1366) |
-| 2026-11-22 | `maplespike/quill` | [fix(portal): make the light/dark toggle actually switch themes](https://github.com/maplespike/quill/pull/1356) |
-| 2026-11-22 | `reverb256/blog` | fix(ci): give the post-merge audit issues:read and surface lookup errors |
-| 2026-11-20 | `reverb256/music-production` | feat(yue2): local engine for instrumental tracks only |
-| 2026-11-20 | `reverb256/media-k8s` | feat(art-render): ZEPHYR_PLATE_GATE read-only GPU admission |
-| 2026-11-20 | `reverb256/astral-key` | docs(claude): list rusqlite in the context7 library docs |
+| 2026-11-23 | `maplespike/quill` | [fix(ci): move the guard prose out of the folded scalar so the gate parses](https://github.com/maplespike/quill/pull/1404) |
+| 2026-11-23 | `maplespike/quill` | [ci(gate): skip the gate job when the workflow_run payload carries no PR](https://github.com/maplespike/quill/pull/1403) |
+| 2026-11-23 | `maplespike/quill` | [ci(gate): skip the gate job for main/prod workflow_run payloads](https://github.com/maplespike/quill/pull/1402) |
+| 2026-11-23 | `maplespike/quill` | [ci(gate): stop waking the merge gate on main/prod pushes](https://github.com/maplespike/quill/pull/1400) |
+| 2026-11-23 | `maplespike/quill` | [fix(ci): build with root pnpm build in the CSP job (turbo dependency order)](https://github.com/maplespike/quill/pull/1399) |
+| 2026-11-23 | `maplespike/quill` | [fix(portal): restore 'unsafe-eval' — the audit says only /api-reference needs it](https://github.com/maplespike/quill/pull/1398) |
+| 2026-11-23 | `maplespike/quill` | [revert(portal): meta CSP broke 83 inline scripts/handlers — restore the working policy](https://github.com/maplespike/quill/pull/1397) |
+| 2026-11-23 | `maplespike/quill` | [feat(portal): hash-based script-src, browser CSP audit, and CI for both](https://github.com/maplespike/quill/pull/1396) |
 
 _Auto-updated weekly by GitHub Actions._
 <!--RECENT:END-->
