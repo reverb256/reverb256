@@ -6,7 +6,7 @@
 Fleet-wide rules are maintained in one place: the `homelab-ops` repo,
 `AGENTS-shared/` directory:
 - `git-hygiene.md` — staging, forbidden files, gates, identity, pre-push checks
-- `merge-policy.md` — PR merge workflow (AI agents label and merge)
+- `merge-policy.md` — AI review, evidence comment, `ready-to-merge` gate
 - `fleet-conventions.md` — deployment, budget, secrets, SPOF, hard rules
 
 Do not duplicate these blocks locally. Check drift with
