@@ -1,0 +1,15 @@
+name: AGENTS.md guard
+description: Require the canonical fleet pointer and reject retired direct-merge policy text.
+inputs:
+  files:
+    description: Space-separated AGENTS.md paths to validate.
+    required: false
+    default: AGENTS.md
+runs:
+  using: composite
+  steps:
+    - name: Validate AGENTS.md policy
+      shell: bash
+      env:
+        GUARD_FILES: ${{ inputs.files }}
+      run: python3 "$GITHUB_ACTION_PATH/check.py" $GUARD_FILES
