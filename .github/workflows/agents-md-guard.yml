@@ -1,0 +1,18 @@
+name: AGENTS.md guard
+
+on:
+  pull_request:
+    paths:
+      - AGENTS.md
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: reverb256/reverb256/.github/actions/agents-md-guard@214bd0e2db15eb19e56e658e5179af05a01215be
+        with:
+          files: AGENTS.md
