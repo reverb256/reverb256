@@ -37,7 +37,10 @@ def test_required_sections_present():
 def test_no_paywalled_trophy_card():
     text = _text()
     assert "github-profile-trophy" not in text
-    assert "402" not in text
+    # The trophy service renders "402 Payment Required" when its card is
+    # paywalled. Match that phrase, not a bare "402": profile READMEs
+    # legitimately link PR numbers that contain the digits (e.g. /pull/1402).
+    assert "402 Payment Required" not in text
 
 
 def test_no_nix_claims_in_stack():
