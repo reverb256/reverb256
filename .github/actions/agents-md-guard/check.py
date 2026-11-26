@@ -21,8 +21,9 @@ DIRECT_MERGE = re.compile(
     re.IGNORECASE,
 )
 OPTIONAL_LABEL = re.compile(
-    r"(?:label|ready-to-merge)[^\n.]{0,80}(?:not required|optional)|"
-    r"(?:not required|optional)[^\n.]{0,80}(?:label|ready-to-merge)",
+    r"(?:ready-to-merge|label)\s+(?:is\s+)?(?:not required|optional)|"
+    r"(?:not required|optional)\s*:\s*(?:ready-to-merge|label)|"
+    r"no\s+(?:ready-to-merge\s+)?label\s+(?:is\s+)?required",
     re.IGNORECASE,
 )
 

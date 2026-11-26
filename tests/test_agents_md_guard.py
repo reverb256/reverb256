@@ -61,3 +61,8 @@ def test_optional_label_fails():
     text = CANONICAL + "\nThe ready-to-merge label is not required.\n"
     errors = guard.validate_text(text)
     assert any("label must be required" in error for error in errors)
+
+
+def test_human_approval_wording_passes():
+    text = CANONICAL + "\nHuman approval is not required, but an agent must review before labeling.\n"
+    assert guard.validate_text(text) == []
