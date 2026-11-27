@@ -20,6 +20,11 @@ DIRECT_MERGE = re.compile(
     r"AI-driven (?:auto-merge|merge)|may push directly to\s+`?main`?",
     re.IGNORECASE,
 )
+OWNER_ONLY_MERGE = re.compile(
+    r"owner reviews and gates merges|owner adds[^\n]*ready-to-merge|"
+    r"only the owner[^\n]*ready-to-merge|Reverb gates",
+    re.IGNORECASE,
+)
 OPTIONAL_LABEL = re.compile(
     r"(?:ready-to-merge|label)\s+(?:is\s+)?(?:not required|optional)|"
     r"(?:not required|optional)\s*:\s*(?:ready-to-merge|label)|"
@@ -46,6 +51,8 @@ def validate_text(text, name="AGENTS.md"):
             errors.append(f"{name}:{number}: direct agent merge instruction is forbidden")
         if DIRECT_MERGE.search(line):
             errors.append(f"{name}:{number}: retired direct-merge policy wording")
+        if OWNER_ONLY_MERGE.search(line):
+            errors.append(f"{name}:{number}: owner-only review or label policy is retired; AI agents review and label")
         if OPTIONAL_LABEL.search(line):
             errors.append(f"{name}:{number}: ready-to-merge label must be required")
     return errors

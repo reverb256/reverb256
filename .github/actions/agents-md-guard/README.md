@@ -20,6 +20,7 @@ The guard fails when a file:
 - omits the canonical `homelab-ops/AGENTS-shared/` pointer;
 - uses the retired `AI agents label and merge` pointer wording;
 - instructs an agent to run a direct merge;
+- reserves review or the `ready-to-merge` label to a human owner;
 - says the `ready-to-merge` label is optional or not required.
 
 Negated references such as “never run `gh pr merge`” are allowed.
