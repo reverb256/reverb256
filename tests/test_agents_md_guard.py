@@ -30,6 +30,11 @@ def test_negated_direct_merge_reference_passes():
     assert guard.validate_text(text) == []
 
 
+def test_no_agent_direct_merge_reference_passes():
+    text = CANONICAL + "\nNo agent runs `gh pr merge`; the workflow merges.\n"
+    assert guard.validate_text(text) == []
+
+
 def test_old_block_fails():
     errors = guard.validate_text(guard.OLD_HEADER + "\n" + CANONICAL)
     assert any("duplicated fleet-rules block" in error for error in errors)
