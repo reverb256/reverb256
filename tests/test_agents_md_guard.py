@@ -66,3 +66,20 @@ def test_optional_label_fails():
 def test_human_approval_wording_passes():
     text = CANONICAL + "\nHuman approval is not required, but an agent must review before labeling.\n"
     assert guard.validate_text(text) == []
+
+
+def test_owner_only_review_and_label_policy_fails():
+    retired = (
+        "The owner reviews and gates merges; other agents open PRs.",
+        "The owner adds `ready-to-merge` after reading the diff.",
+        "Only the owner adds or removes `ready-to-merge`.",
+        "Until an owner is assigned, Reverb gates merges.",
+    )
+    for line in retired:
+        errors = guard.validate_text(CANONICAL + "\n" + line + "\n")
+        assert any("owner-only review or label policy" in error for error in errors), line
+
+
+def test_ai_review_and_label_policy_passes():
+    text = CANONICAL + "\nAI agents review the exact head, post evidence, and add `ready-to-merge`; the workflow merges.\n"
+    assert guard.validate_text(text) == []
