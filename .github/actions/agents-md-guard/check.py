@@ -14,7 +14,7 @@ REQUIRED_LINES = (
     "`bin/agents-md-check.py --check` from the homelab-ops repo.",
 )
 STALE_POINTER = "PR merge workflow (AI agents label and merge)"
-NEGATIONS = ("never", "must not", "do not", "cannot", "don't")
+NEGATIONS = ("never", "must not", "do not", "cannot", "don't", "no agent", "no one")
 DIRECT_MERGE = re.compile(
     r"AI agents handle all merges|AI agents merge:\s*open a PR|"
     r"AI-driven (?:auto-merge|merge)|may push directly to\s+`?main`?",
